@@ -46,3 +46,6 @@ git pull origin main
 2. Hritik Shanbhag - PES2201800082
 3. Shashwath S Kumar - PES2201800623
 
+# Inspiration
+
+This project has been inspired by the website [sentdex.com](http://sentdex.com/political-analysis/us-politicians/) by Harrison Kinsley.
