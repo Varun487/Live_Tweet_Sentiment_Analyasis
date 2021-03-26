@@ -57,6 +57,7 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 		- 2 papers - Shashwath
 		- 2 papers - Hritik
 		- 1 paper - Varun
+			- https://www.sciencedirect.com/science/article/pii/S1877050920306669
 	- Review 1 presentation
 - Model
 	- Get Historical data
