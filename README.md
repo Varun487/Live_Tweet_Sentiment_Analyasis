@@ -69,8 +69,8 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Visualizations of data
 	- Ranking Algorithm
 - UI
-	- Host site
-	- Automate deployment
+	- Host site `DONE`
+	- Automate deployment `DONE`
 	- Decide on design
 	- Integrate model
 	- Soure twitter data
