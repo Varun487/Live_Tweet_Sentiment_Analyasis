@@ -1,4 +1,5 @@
-# NLP PROJECT - Live Tweet Sentiment Analyasis
+# Live Tweet Sentiment Analyasis
+###### NLP Project Team 27
 
 ## What is the project?
 
