@@ -59,16 +59,20 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 		- 2 papers - Hritik
 		- 1 paper - Varun `DONE`
 			- https://www.sciencedirect.com/science/article/pii/S1877050920306669 `DONE`
-	- Review 1 presentation
+	- Complete review 1 presentation
 - Model
-	- Get Historical data
-	- Source real time tweet data
-	- Build model cycle
-		- train
-		- test
-		- Evaluate
+	- Find a dataset to train the models 
+	- Model
+		- Ensemble of 3 models
+			- Build model cycle
+				- train
+				- test
+				- Evaluate
+	- Get Historical data - 30 MPs 6 months mentions tweets 
 	- Visualizations of data
 	- Ranking Algorithm
+		- 6-month volume mentions
+		- Number of 
 - UI
 	- Host site `DONE`
 	- Automate deployment `DONE`
