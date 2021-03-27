@@ -69,16 +69,22 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 				- test
 				- Evaluate
 	- Get Historical data - 30 MPs 6 months mentions tweets 
-	- Visualizations of data
-	- Ranking Algorithm
-		- 6-month volume mentions
-		- Number of 
+	- Run model on historical data 
+	- Visualizations of data 
+	- Ranking Algorithm 
+		- 6-month volume mentions 
+		- Number of +ve, neutral, -ve tweets 
+		- Bin according to absolute number of tweets 
+		- % +ve, -ve, neutral 
 - UI
 	- Host site `DONE`
 	- Automate deployment `DONE`
-	- Decide on design
-	- Integrate model
-	- Soure twitter data
-	- Run model and generate sentiment scores
-	- Rank politicians according to algorithm
-	- Visualizations of the data for each politician
+	- Decide on design 
+	- Visualizations of the data for each politician 
+	- HIT REFRESH Functionality
+		- Cloud function - With model integrated 
+			- Source twitter data 
+			- Preprocess data 
+			- Run model and generate sentiment classification
+			- Rank politicians according to algorithm 
+			- Send data for visualizations to UI 
