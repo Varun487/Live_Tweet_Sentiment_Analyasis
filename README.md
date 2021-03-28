@@ -34,7 +34,7 @@ To build a website for ranking politicians according to the sentiment analysis o
 2. cd into the directory via `cd <directory_name>` 
 3. run these commands to initialize the project: 
 ```
-git init
+git init -b main
 
 git remote add origin "git@github.com:Varun487/NLP_Live_Tweet_Sentiment_Analysis.git"
 
@@ -62,12 +62,13 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Complete review 1 presentation
 - Model
 	- Find a dataset to train the models 
-	- Model
-		- Ensemble of 3 models
-			- Build model cycle
-				- train
-				- test
-				- Evaluate
+		- https://www.kaggle.com/kazanova/sentiment140
+	- Model 
+		- Ensemble of 3 models 
+			- Build model cycle 
+				- train 
+				- test 
+				- Evaluate 
 	- Get Historical data - 30 MPs 6 months mentions tweets 
 	- Run model on historical data 
 	- Visualizations of data 
