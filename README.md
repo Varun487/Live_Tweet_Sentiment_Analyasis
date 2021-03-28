@@ -64,15 +64,16 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Find a dataset to train the models `DONE`
 		- https://www.kaggle.com/kazanova/sentiment140 `DONE`
 	- Model 
+		- Preprocessing `DONE`
 		- Ensemble of 3 models 
-			- Varun 
-				- Preprocessing 
-				- Build model cycle 
-					- train 
-					- test 
-					- Evaluate 
+			- Varun `DONE` 
+				- Know enough to understand and explain model properly - put in presentation
 			- Shashwath
 			- Hritik
+			- Build model cycle 
+				- train 
+				- test 
+				- Evaluate
 	- Get Historical data - 30 MPs 6 months mentions tweets 
 	- Run model on historical data 
 	- Visualizations of data 
@@ -82,14 +83,14 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 		- Bin according to absolute number of tweets 
 		- % +ve, -ve, neutral 
 - UI
-	- Host site `DONE`
-	- Automate deployment `DONE`
+	- Host site `DONE` 
+	- Automate deployment `DONE` 
 	- Decide on design 
 	- Visualizations of the data for each politician 
-	- HIT REFRESH Functionality
+	- HIT REFRESH Functionality 
 		- Cloud function - With model integrated 
 			- Source twitter data 
 			- Preprocess data 
-			- Run model and generate sentiment classification
+			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
 			- Send data for visualizations to UI 
