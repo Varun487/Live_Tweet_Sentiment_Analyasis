@@ -1,3 +1,5 @@
 venv/
 .idea/
-Model/dataset.csv
+dataset.csv
+cleaned_tweets.csv
+.ipynb_checkpoints

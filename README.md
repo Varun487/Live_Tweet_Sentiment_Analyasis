@@ -61,14 +61,18 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 			- https://www.sciencedirect.com/science/article/pii/S1877050920306669 `DONE`
 	- Complete review 1 presentation
 - Model
-	- Find a dataset to train the models 
-		- https://www.kaggle.com/kazanova/sentiment140
+	- Find a dataset to train the models `DONE`
+		- https://www.kaggle.com/kazanova/sentiment140 `DONE`
 	- Model 
 		- Ensemble of 3 models 
-			- Build model cycle 
-				- train 
-				- test 
-				- Evaluate 
+			- Varun 
+				- Preprocessing 
+				- Build model cycle 
+					- train 
+					- test 
+					- Evaluate 
+			- Shashwath
+			- Hritik
 	- Get Historical data - 30 MPs 6 months mentions tweets 
 	- Run model on historical data 
 	- Visualizations of data 
