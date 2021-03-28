@@ -55,7 +55,7 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 # TODO
 - Literature survey
 	- 5 papers
-		- 2 papers - Shashwath
+		- 2 papers - Shashwath `DONE`
 		- 2 papers - Hritik
 		- 1 paper - Varun `DONE`
 			- https://www.sciencedirect.com/science/article/pii/S1877050920306669 `DONE`
