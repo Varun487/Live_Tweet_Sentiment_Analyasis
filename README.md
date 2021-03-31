@@ -1,5 +1,5 @@
 # Political Tweet Sentiment Analyasis
-###### NLP Project Team 27
+###### NLP Project Team 21
 
 ## What is the project?
 
