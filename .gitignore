@@ -5,3 +5,11 @@ cleaned_tweets.csv
 .ipynb_checkpoints
 NB_UnigramBigram_78.pickle
 UnigramBigram_vectorizer.pickle
+secrets.txt
+__pycache__
+*_tweets.csv
+secrets.py
+*.pickle
+*.h5
+SavedModels/
+data/
