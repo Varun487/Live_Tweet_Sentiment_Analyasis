@@ -3,3 +3,5 @@ venv/
 dataset.csv
 cleaned_tweets.csv
 .ipynb_checkpoints
+NB_UnigramBigram_78.pickle
+UnigramBigram_vectorizer.pickle
