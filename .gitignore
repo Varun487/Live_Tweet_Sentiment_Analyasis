@@ -13,3 +13,4 @@ secrets.py
 *.h5
 SavedModels/
 data/
+political_tweets_data/

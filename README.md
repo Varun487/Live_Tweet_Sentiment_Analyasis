@@ -54,27 +54,13 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 # TODO
 - Literature survey
-	- 5 papers
-		- 2 papers - Shashwath `DONE`
-		- 2 papers - Hritik
-		- 1 paper - Varun `DONE`
-			- https://www.sciencedirect.com/science/article/pii/S1877050920306669 `DONE`
-	- Complete review 1 presentation
+	- See if you can fix this, show other papers
 - Model
-	- Find a dataset to train the models `DONE`
-		- https://www.kaggle.com/kazanova/sentiment140 `DONE`
 	- Model 
-		- Preprocessing `DONE`
-		- Ensemble of 3 models 
-			- Varun `DONE` 
-				- Know enough to understand and explain model properly - put in presentation
-			- Shashwath
-			- Hritik
-			- Build model cycle 
-				- train 
-				- test 
-				- Evaluate
-	- Get Historical data - 30 MPs 6 months mentions tweets 
+		- Ensemble of models
+			- Decide models in ensemble
+			- Fix current models
+	- Get Historical political tweets data (last 1 week) per politician 
 	- Run model on historical data 
 	- Visualizations of data 
 	- Ranking Algorithm 
@@ -83,8 +69,6 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 		- Bin according to absolute number of tweets 
 		- % +ve, -ve, neutral 
 - UI
-	- Host site `DONE` 
-	- Automate deployment `DONE` 
 	- Decide on design 
 	- Visualizations of the data for each politician 
 	- HIT REFRESH Functionality 
