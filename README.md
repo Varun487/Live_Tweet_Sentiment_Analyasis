@@ -56,10 +56,9 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 - Literature survey
 	- See if you can fix this, show other papers
 - Model
-	- Model 
-		- Ensemble of models
-			- Decide models in ensemble
-			- Fix current models
+	- Ensemble of models
+		- Decide models in ensemble
+		- Fix current models
 	- Get Historical political tweets data (last 1 week) per politician 
 	- Run model on historical data 
 	- Visualizations of data 
