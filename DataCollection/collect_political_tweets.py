@@ -21,6 +21,19 @@ mp_list = [
 	# 'SashiTharoor', # Not enough tweets, don't uncomment
 	# 'nitin_gadkari',
 	# 'DrSJaishankar',
+	# 'BSYBJP',#not enough tweets,dont uncomment
+    #'ArvindKejriwal'
+    #'myogiadityanath'
+    #'mamataofficial'
+    #'PiyushGoyalOffc'
+    #'smritiirani'
+	#'rsprasad'
+	#'CMOTamilNadu'
+	#'Dev_Fadnavis'
+	#'hd_kumaraswamy' Not enough tweets , dont uncomment
+	#'vijayanpinarayi' Not enough tweets , dont uncomment
+	#'OfficeofUT'
+	'NitishKumar'
 ]
 
 for mp in mp_list:
