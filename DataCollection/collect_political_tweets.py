@@ -40,7 +40,7 @@ for mp in mp_list:
 	day = 31
 	hour = 23
 
-	while len(tweets_id) < 2000 and day > 24:
+	while len(tweets_id) < 2000 and day > 25:
 		hour = 23
 
 		while len(tweets_id) < 2000 and hour > 0:

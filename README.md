@@ -59,6 +59,8 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Change presentation
 - Fill NLP review 2 form
 - Model
+	- Preprocessing
+		- Clean tweets according to https://towardsdatascience.com/twitter-sentiment-analysis-using-fasttext-9ccd04465597
 	- Ensemble of models
 		- Re-evaluate current models
 		- Understand and finish a good LSTM model
