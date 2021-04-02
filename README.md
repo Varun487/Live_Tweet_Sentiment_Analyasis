@@ -59,18 +59,12 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Change presentation
 - Fill NLP review 2 form
 - Model
-	- Preprocessing
-		- Clean tweets according to https://towardsdatascience.com/twitter-sentiment-analysis-using-fasttext-9ccd04465597
 	- Ensemble of models
 		- Re-evaluate current models
 		- Understand and finish a good LSTM model
 		- Search for another ANN Model to build
 		- Create and evaluate combinations of models (try out different ensemebles) 
 		- Decide on final model / ensemble for prediction
-	- Get Historical political tweets data (last 1 week) per politician 
-		- Hritik - Get 5 more politicians' data
-		- Shashwath - Get 5 more politicians' data
-		- Upload all data to drive
 	- Run final model on historical data 
 	- Visualizations of results
 	- Ranking Algorithm 
@@ -86,3 +80,5 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
 			- Send data for visualizations to UI 
+- Mock presentation 1
+- Mock presentation 2
