@@ -41,7 +41,7 @@ for mp in mp_list:
 	while len(tweets_id) < 2000 and day > 24:
 		hour = 23
 
-		while hour > 0 and len(tweets_id) < 2000:
+		while len(tweets_id) < 2000 and hour > 0:
 			
 			response = requests.get(f"https://api.twitter.com/2/tweets/search/recent?query=(@{mp})+lang:en+-is:retweet+-has:images+-has:links&max_results=100&end_time=2021-03-{day}T{hour}:30:00Z", headers=headers)
 
