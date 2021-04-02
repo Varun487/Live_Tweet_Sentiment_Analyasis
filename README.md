@@ -57,14 +57,11 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 	- Varun - Explain why only 1 paper was done
 	- Hritik - Understand your papers properly, who published them and why you chose them
 	- Change presentation
-- Fill NLP review 2 form
 - Model
 	- Ensemble of models
-		- Re-evaluate current models
-		- Search for another ANN Model to build
-		- Create and evaluate combinations of models (try out different ensemebles) 
+		- Create and evaluate combinations of models (try out different ensemebles)
 		- Decide on final model / ensemble for prediction
-	- Run final model on historical data 
+	- Run final model on political tweets data 
 	- Visualizations of results
 	- Ranking Algorithm 
 		- Amount of time it took to collect ~ 2000 tweets (lesser time ranks higher)
