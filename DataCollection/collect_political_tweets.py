@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 if 'political_tweets_data' not in os.listdir():
-	os.mkdir("./political_tweets_data")
+	os.mkdir("political_tweets_data")
 
 headers = {'Content-Type': 'application/json; charset=utf-8', 'Authorization': 'Bearer ' + Bearer_Token}
 
@@ -34,8 +34,10 @@ for mp in mp_list:
 	# Get 2000 unique tweets per MP
 	tweets_id = []
 	tweets_text = []
+	tweets_date = []
+	tweets_time = []
 
-	day = 30
+	day = 31
 	hour = 23
 
 	while len(tweets_id) < 2000 and day > 24:
@@ -43,7 +45,7 @@ for mp in mp_list:
 
 		while len(tweets_id) < 2000 and hour > 0:
 			
-			response = requests.get(f"https://api.twitter.com/2/tweets/search/recent?query=(@{mp})+lang:en+-is:retweet+-has:images+-has:links&max_results=100&end_time=2021-03-{day}T{hour}:30:00Z", headers=headers)
+			response = requests.get(f"https://api.twitter.com/2/tweets/search/recent?query=(@{mp})+lang:en+-is:retweet+-has:images&max_results=100&end_time=2021-03-{day}T{hour}:30:00Z", headers=headers)
 
 			print(response)
 
@@ -65,6 +67,8 @@ for mp in mp_list:
 
 					tweets_id.append(str(tweet['id']))
 					tweets_text.append(tweet['text'])
+					tweets_date.append(f"2021-03-{day}")
+					tweets_time.append(f"{hour}:30:00")
 
 					print("Number of tweets for ", mp, ": ", len(tweets_id))
 			
@@ -74,7 +78,7 @@ for mp in mp_list:
 		day -= 1
 
 	# save tweets to file
-	df = pd.DataFrame({'mp': mp, 'tweet_id': tweets_id, 'tweet_text': tweets_text})
+	df = pd.DataFrame({'mp': mp, 'tweet_date': tweets_date, 'tweet_time': tweets_time, 'tweet_id': tweets_id, 'tweet_text': tweets_text})
 
 	print(df)
 
