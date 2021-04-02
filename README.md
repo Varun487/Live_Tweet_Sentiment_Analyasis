@@ -54,25 +54,32 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 # TODO
 - Literature survey
-	- See if you can fix this, show other papers
+	- Varun - Explain why only 1 paper was done
+	- Hritik - Understand your papers properly, who published them and why you chose them
+	- Change presentation
+- Fill NLP review 2 form
 - Model
 	- Ensemble of models
-		- Decide models in ensemble
-		- Fix current models
+		- Re-evaluate current models
+		- Understand and finish a good LSTM model
+		- Search for another ANN Model to build
+		- Create and evaluate combinations of models (try out different ensemebles) 
+		- Decide on final model / ensemble for prediction
 	- Get Historical political tweets data (last 1 week) per politician 
-	- Run model on historical data 
-	- Visualizations of data 
+		- Hritik - Get 5 more politicians' data
+		- Shashwath - Get 5 more politicians' data
+		- Upload all data to drive
+	- Run final model on historical data 
+	- Visualizations of results
 	- Ranking Algorithm 
-		- 6-month volume mentions 
-		- Number of +ve, neutral, -ve tweets 
-		- Bin according to absolute number of tweets 
-		- % +ve, -ve, neutral 
+		- Amount of time it took to collect ~ 2000 tweets (lesser time ranks higher)
+		- % +ve and -ve tweets
 - UI
 	- Decide on design 
 	- Visualizations of the data for each politician 
 	- HIT REFRESH Functionality 
 		- Cloud function - With model integrated 
-			- Source twitter data 
+			- Source twitter data for the politician
 			- Preprocess data 
 			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
