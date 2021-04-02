@@ -61,7 +61,6 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 - Model
 	- Ensemble of models
 		- Re-evaluate current models
-		- Understand and finish a good LSTM model
 		- Search for another ANN Model to build
 		- Create and evaluate combinations of models (try out different ensemebles) 
 		- Decide on final model / ensemble for prediction
