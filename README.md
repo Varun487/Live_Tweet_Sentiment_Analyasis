@@ -54,10 +54,6 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 # TODO 
 - Models
-	- Ensemble of models
-		- Create and evaluate combinations of models (try out different ensemebles)
-		- Decide on final model / ensemble for prediction
-	- Run final model on political tweets data 
 	- Visualizations of results
 	- Ranking Algorithm 
 		- Amount of time it took to collect ~ 2000 tweets (lesser time ranks higher)
