@@ -52,12 +52,8 @@ git pull origin main
 This project has been inspired by the website [sentdex.com](http://sentdex.com/political-analysis/us-politicians/) by Harrison Kinsley.
 
 
-# TODO
-- Literature survey
-	- Varun - Explain why only 1 paper was done
-	- Hritik - Understand your papers properly, who published them and why you chose them
-	- Change presentation
-- Model
+# TODO 
+- Models
 	- Ensemble of models
 		- Create and evaluate combinations of models (try out different ensemebles)
 		- Decide on final model / ensemble for prediction
@@ -76,5 +72,9 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
 			- Send data for visualizations to UI 
+- Literature survey
+	- Varun - Explain why only 1 paper was done
+	- Hritik - Understand your papers properly, who published them and why you chose them
+- Fix presentation
 - Mock presentation 1
 - Mock presentation 2
