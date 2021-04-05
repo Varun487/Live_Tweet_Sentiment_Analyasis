@@ -55,10 +55,6 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 # TODO 
 
 ## REVIEW 1
-- Models
-	- Ranking Algorithm 
-		- Amount of time it took to collect ~ 2000 tweets (lesser time ranks higher)
-		- % +ve and -ve tweets
 - Literature survey
 	- Varun - Explain why only 1 paper was done
 	- Hritik - Understand your papers properly, who published them and why you chose them
