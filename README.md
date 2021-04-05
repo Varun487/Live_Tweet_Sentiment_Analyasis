@@ -53,9 +53,9 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 
 # TODO 
+
 ## REVIEW 1
 - Models
-	- Visualizations of results
 	- Ranking Algorithm 
 		- Amount of time it took to collect ~ 2000 tweets (lesser time ranks higher)
 		- % +ve and -ve tweets
@@ -65,6 +65,7 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 - Fix presentation
 - Mock presentation 1
 - Mock presentation 2
+
 ## REVIEW 2
 - UI
 	- Decide on design 
@@ -75,7 +76,7 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 			- Preprocess data 
 			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
-			- Send data for visualizations to UI \
+			- Send data for visualizations to UI
 - Fix presentation
 - Mock presentation 1
 - Mock presentation 2
