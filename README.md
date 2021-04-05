@@ -73,6 +73,5 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 			- Run model and generate sentiment classification 
 			- Rank politicians according to algorithm 
 			- Send data for visualizations to UI
-- Fix presentation
 - Mock presentation 1
 - Mock presentation 2
