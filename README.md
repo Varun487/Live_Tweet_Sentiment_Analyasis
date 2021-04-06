@@ -54,24 +54,20 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 # TODO 
 
-## REVIEW 1
-- Literature survey
-	- Varun - Explain why only 1 paper was done
-	- Hritik - Understand your papers properly, who published them and why you chose them
-- Fix presentation
+## REVIEW 2
+- Neural vectorizer for non-NN models
+- Improve LSTM and B-LSTM
+- Try to get above 90% for models
 - Mock presentation 1
 - Mock presentation 2
 
-## REVIEW 2
-- UI
-	- Decide on design 
-	- Visualizations of the data for each politician 
-	- HIT REFRESH Functionality 
-		- Cloud function - With model integrated 
-			- Source twitter data for the politician
-			- Preprocess data 
-			- Run model and generate sentiment classification 
-			- Rank politicians according to algorithm 
-			- Send data for visualizations to UI
-- Mock presentation 1
-- Mock presentation 2
+## UI
+- Decide on design 
+- Visualizations of the data for each politician 
+- HIT REFRESH Functionality 
+	- Cloud function - With model integrated 
+		- Source twitter data for the politician
+		- Preprocess data 
+		- Run model and generate sentiment classification 
+		- Rank politicians according to algorithm 
+		- Send data for visualizations to UI
