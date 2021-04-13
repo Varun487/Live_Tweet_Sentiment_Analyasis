@@ -56,8 +56,14 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 ## REVIEW 2
 - Neural vectorizer for non-NN models
+- Make a FastText model
 - Improve LSTM and B-LSTM
+	- FastText Embedding
+	- Word2Vec Embedding
+	- GLoVe Embedding
+	- Custom Embedding
 - Try to get above 90% for models
+- Modify presentation to submit
 - Mock presentation 1
 - Mock presentation 2
 
