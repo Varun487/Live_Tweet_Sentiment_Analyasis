@@ -54,9 +54,6 @@ This project has been inspired by the website [sentdex.com](http://sentdex.com/p
 
 # TODO 
 
-## REVIEW 2
-- Modify and submit PPT
-
 ## UI
 - Decide on design 
 - Visualizations of the data for each politician 
