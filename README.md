@@ -50,17 +50,3 @@ git pull origin main
 # Inspiration
 
 This project has been inspired by the website [sentdex.com](http://sentdex.com/political-analysis/us-politicians/) by Harrison Kinsley.
-
-
-# TODO 
-
-## UI
-- Decide on design 
-- Visualizations of the data for each politician 
-- HIT REFRESH Functionality 
-	- Cloud function - With model integrated 
-		- Source twitter data for the politician
-		- Preprocess data 
-		- Run model and generate sentiment classification 
-		- Rank politicians according to algorithm 
-		- Send data for visualizations to UI
